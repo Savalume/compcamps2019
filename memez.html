@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" href="stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Notable&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="background4">
+    <audio controls="embed" id="sounds" autoplay>
+      <source src="https://sanae6.ca/yt?video_id=c5daGZ96QGU" />
+      </audio>
+<script type="text/javascript">
+
+  errors = [];
+
+  function error() {
+    var img = new Image();
+    img.src = "img/error.png";
+    img.style.position = "absolute";
+    img.style.left = Math.floor((Math.random() * window.innerWidth) + 1) + "px";
+    img.style.top = Math.floor((Math.random() * window.innerHeight) + 1) + "px";
+    document.body.appendChild(img);
+    errors.push(img);
+  }
+
+  function clear() {
+    var player = document.getElementById('sounds');
+    player.pause();
+    clearInterval(errorInterval);
+    errors.forEach(function(error){
+      error.remove();
+    });
+    document.body.style.backgroundImage = "url('img/error2.png')";
+  }
+
+  var errorInterval;
+
+  setTimeout(function(){ errorInterval = setInterval(error, 1); }, 8000);
+  setTimeout(function(){ clear() }, 20000);
+</script>
+</body>

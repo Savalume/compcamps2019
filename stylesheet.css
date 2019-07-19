@@ -1,0 +1,250 @@
+body{
+  color: white;
+  background-image: url("img/hello.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Notable', sans-serif;
+  text-align: center;
+
+}
+.nav{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  background-color: rgba(238, 238, 238, 0.5);
+  margin-left: 10px;
+  margin-right: 8px;
+
+}
+
+
+.navbar{
+  list-style-type: none;
+  border: 2px solid white;
+
+
+}
+.title{
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  margin: 20px 250px;
+  background-color:  rgba(238, 238, 238, 0.5);
+    border: 2px solid white;
+  }
+
+
+.paragraph{
+  color: black;
+padding-left: 5px;
+font-size: 20px;
+font-family: 'Kalam', cursive;
+display: inline-block;
+border-radius: 25px;
+ border: 2px solid white;
+ padding: 20px;
+ width: 834px;
+ height: 110px;
+ background-color:   rgba(238, 238, 238, 0.5);
+ margin-bottom: 10px
+}
+
+.paragraph2{
+  color: black;
+font-size: 20px;
+font-family: 'Kalam', cursive;
+  border-radius: 25px;
+   border: 2px solid white;
+   padding: 10px;
+   width: 900px;
+   height: 120px;
+   background-color:   rgba(238, 238, 238, 0.5);
+   margin: 0 auto;
+}
+.paragraph3{
+  color: black;
+font-size: 20px;
+text-align: center;
+font-family: 'Kalam', cursive;font-family: 'Kalam', cursive;
+  border-radius: 25px;
+   border: 2px solid white;
+   width: 850px;
+   height: 60px;
+   margin-left: 390px;
+   background-color:   rgba(238, 238, 238, 0.5);
+}
+
+.paragraph4{
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Kalam', cursive;font-family: 'Kalam', cursive;
+  border-radius: 25px;
+  border: 2px solid white;
+  width: 835px;
+  height: 140px;
+  background-color:   rgba(238, 238, 238, 0.5);
+  display: inline-block;
+  padding-top: 15px;
+  padding: 20px;
+  margin-bottom: 10px
+}
+
+.paragraph5{
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Kalam', cursive;font-family: 'Kalam', cursive;
+  border-radius: 25px;
+  border: 2px solid white;
+  width: 835px;
+  height: 140px;
+  background-color:   rgba(238, 238, 238, 0.5);
+  display: inline-block;
+  padding-top: 15px;
+  padding: 20px;
+  margin-bottom: 10px
+}
+
+.paragraph6{
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Kalam', cursive;font-family: 'Kalam', cursive;
+  border-radius: 25px;
+  border: 2px solid white;
+  width: 835px;
+  height: 90px;
+  background-color:   rgba(238, 238, 238, 0.5);
+  display: inline-block;
+  padding-top: 15px;
+  padding: 20px;
+  margin-bottom: 10px;
+  float:right;
+}
+
+
+
+audio{
+  display: none;
+}
+
+a{
+  text-decoration: none ;
+  font-size: 20px;
+  padding: 0 100px;
+  color: black;
+  transition: 1s;
+}
+
+.navlink{
+  display: inline;
+
+
+}
+.img_me{
+width: 650px;
+height: 450px;
+margin-left: 20px;
+border: 5px solid;
+float: left;
+
+}
+
+.ul_p{
+  display: flex;
+  list-style-type: circle;
+  margin-top: 0;
+  display: block;
+
+}
+
+.img_2{
+display: block;
+margin: 0 auto;
+padding: 30px;
+color: black;
+}
+
+
+div.nav a:hover{
+font-size: 25px;
+}
+
+
+.background2{
+  color: white;
+  background-image: url("img/hello.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Notable', sans-serif;
+  text-align: center;
+}
+
+.background4{
+  color: white;
+  background-image: url("img/deku.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Notable', sans-serif;
+  text-align: center;
+}
+
+.img3{
+  width: 350px;
+  height: 150px;
+display: block;
+margin: 0 auto;
+transition:
+}
+
+.clicky_button_container {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+
+}
+
+.arrow2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 150px;
+  height: 150px;
+  transform: rotate(340deg) translate(20px, 20px);
+}
+
+.arrow{
+  width: 200px;
+  height: 200px;
+  margin-right: 250px;
+  float: right;
+  margin-top: 100px;
+}
+
+
+.arrow4{
+  width: 200px;
+  height: 200px;
+  margin-right: 250px;
+  float: left;
+  margin-top: 100px;
+  margin-left: 239px;
+  margin-right: 1000px;;
+}
+
+
+.arrow3{
+  width: 200px;
+  height: 200px;
+  float: left;
+
+}
+
+.picture{
+  width: 200px;
+  height: 200px;
+  margin-right: 250px;
+  float: right;
+  margin-top: 100px;
+}
